@@ -1,12 +1,15 @@
 # **README**
 
-## Course Project 2 - Airquality
+## Airquality - US PM2.5 Emissions
 
 ## Exploratory Data Analysis
 
 ### THIS REPO INCLUDES THE FOLLOWING FILES
 
 * *"README.md"*: Explains the analysis files and give some general information about this project.
+
+* *"Analysis.md"*: A Markdown script, analysing and visualizing the data.
+* *"Analysis.pdf"*: A pdf file, generated from the *"Analysis.md"*.
 
 * *"CodeBook.md"*: A Markdown script, describing the variables.
 
@@ -17,31 +20,8 @@
 * *"Plot5.R"*: The script that analyses and plots the data for the Question 5.
 * *"Plot6.R"*: The script that analyses and plots the data for the Question 6.
 
-The six plots are in the folder *"images"*. 
+* The 10 *"plots"* are in the folder *"images"*. For more information see *"Analysis.md"*. 
 
-### Plot 1 generated with the "plot1.R" script
-
-![Plot1 of Total PM2.5 Emissions by year](images/Plot1_Emissions_by_year.png)
-
-### Plot 2 generated with the "plot2.R" script
-
-![Plot2 of Total PM2.5 Emissions by year in Baltimore](images/Plot2_Emissions_by_year_Baltimore.png)
-
-### Plot 3 generated with the "plot3.R" script
-
-![Plot3 of Total PM2.5 Emissions by year and source type in Baltimore](images/Plot3_Emissions_by_year_type_Baltimore.png)
-
-### Plot 4 generated with the "plot4.R" script
-
-![Plot4 of Total PM2.5 Emissions from coal combustion sources by year](images/Plot4_Emissions_year_coal_comb.png)
-
-### Plot 5 generated with the "plot5.R" script
-
-![Plot5 of Total PM2.5 Emissions from motor vehicle sources by year in Baltimore](images/Plot5_Emissions_year_vehicle_Baltimore.png)
-
-### Plot 6 generated with the "plot6.R" script
-
-![Plot6 of Total PM2.5 Emissions from motor vehicle sources by year in Baltimore and Los Angeles](images/Plot6_Emissions_year_vehicle_Baltimore_LA.png)
 
 ### PROJECT GOAL
 

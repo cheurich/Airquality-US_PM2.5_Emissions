@@ -1,5 +1,5 @@
 ##########################################
-# Course Project 2 - Airquality
+# Airquality - US PM2.5 Emissions
 ##########################################
 # Plot 2, Question 2
 # 2. Have total emissions from PM2.5 decreased in the 

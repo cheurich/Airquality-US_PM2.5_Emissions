@@ -1,5 +1,5 @@
 ##########################################
-# Course Project 2 - Airquality
+# Airquality - US PM2.5 Emissions
 ##########################################
 # Plot 5, Question 5
 # 5. How have emissions from motor vehicle sources changed 
@@ -52,4 +52,14 @@ ggplot(d5_veh_Baltimore_year, aes(x =as.factor(year), y=x, fill=as.factor(year))
   labs(x = 'Years', y = 'Emissions (tons)', fill="Years",
        title = 'Total PM2.5 Emmissions by year and motor vehicle sources in Baltimore',
        subtitle = 'PM2.5 Emissions from motor vehicle sources', caption = 'Datasource: publicly available data from Environmental Protection Agency (EPA)')
+dev.off()
+
+# Plots and saves a panel of 4 barplots of total emissions from coal combustion sources by year and states
+png("./images/Plot5_Emissions_year_vehicle_States_2.png")
+ggplot(d5_veh, aes(x =as.factor(State), y=x, fill=as.factor(year)))+
+  geom_bar(stat="identity")+
+  facet_grid(as.factor(year)~.)+
+  labs(x = 'US States', y = 'Emissions (tons)', fill="Years",
+       title = 'Total PM2.5 Emmissions by year and motor vehicle source by US State',
+       subtitle = 'PM2.5 Emissions by US States', caption = 'Datasource: publicly available data from Environmental Protection Agency (EPA)')
 dev.off()

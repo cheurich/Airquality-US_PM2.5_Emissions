@@ -1,5 +1,5 @@
 ##########################################
-# Course Project 2 - Airquality
+# Airquality - US PM2.5 Emissions
 ##########################################
 # Plot 6, Question 6
 # 6. Compare emissions from motor vehicle sources in 
@@ -70,6 +70,6 @@ ggplot(d6_veh_Baltimore_LA, aes(x =as.factor(year), y=x, fill=as.factor(year)))+
   geom_bar(stat="identity")+
   facet_grid(.~as.factor(fips), labeller=as_labeller(facetlabs))+
   labs(x = 'Years', y = 'Emissions (tons)', fill="Years",
-       title = 'Total PM2.5 Emmissions from motor vehicle sources',
-       subtitle = 'PM2.5 Emissions in Baltimore and Los Angeles', caption = 'Datasource: publicly available data from Environmental Protection Agency (EPA)')
+       title = 'Total PM2.5 Emmissions in Baltimore and Los Angeles',
+       subtitle = 'PM2.5 Emissions from motor vehicle sources', caption = 'Datasource: publicly available data from Environmental Protection Agency (EPA)')
 dev.off()
