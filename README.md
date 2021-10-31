@@ -75,3 +75,4 @@ The data for this assignment are available from the course web site as a single 
 * Data for Peer Assessment [29Mb]: https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip
 
 * See the CodeBook for more information about the data.
+
